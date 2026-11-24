@@ -1,0 +1,21 @@
+{
+  "url": "https://download.geofabrik.de/asia/iran/iran-261123.osm.pbf",
+  "pbfSha256": "c2614f27ca1a863c9278ce2e4b4f56e81e2c5ba4bd14ad8cfbe1e66b4c536cd4",
+  "retrieved": "2026-11-24",
+  "snapshotTime": "2026-11-23T21:21:17Z",
+  "license": "ODbL-1.0",
+  "attribution": "\u00a9 OpenStreetMap contributors",
+  "bounds": [
+    50.58,
+    35.19,
+    51.64,
+    36.05
+  ],
+  "networkRelation": 21175029,
+  "counts": {
+    "relations": 208,
+    "ways": 496,
+    "nodes": 652,
+    "context": 64177
+  }
+}
