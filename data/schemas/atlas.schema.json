@@ -1,0 +1,576 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tehran Metro Atlas release",
+  "type": "object",
+  "required": [
+    "version",
+    "updated",
+    "networks",
+    "metrics",
+    "revisions",
+    "lines",
+    "projects",
+    "places",
+    "complexes",
+    "interchanges",
+    "platforms",
+    "entrances",
+    "alternatives",
+    "stations",
+    "segments",
+    "services",
+    "sources",
+    "history"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "networks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "lineIds"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+          },
+          "name": {
+            "$ref": "#/$defs/name"
+          },
+          "lineIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "revisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "date",
+          "version",
+          "notes"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "notes": {
+            "$ref": "#/$defs/name"
+          },
+          "entityIds": {
+            "$ref": "#/$defs/refs"
+          }
+        }
+      }
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "places": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "complexes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "interchanges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "entrances": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "alternatives": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "stations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/station"
+      }
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/segment"
+      }
+    },
+    "services": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/service"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+    },
+    "refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+      },
+      "uniqueItems": true
+    },
+    "status": {
+      "enum": [
+        "operational",
+        "temporarily_closed",
+        "under_construction",
+        "contract_awarded",
+        "approved",
+        "in_planning",
+        "proposed",
+        "suspended",
+        "cancelled",
+        "unknown"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "verified",
+        "high",
+        "approximate",
+        "indicative",
+        "unknown"
+      ]
+    },
+    "alignment": {
+      "enum": [
+        "actual",
+        "official_planned",
+        "approximate_planned",
+        "schematic",
+        "unknown"
+      ]
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "fa",
+        "en"
+      ],
+      "properties": {
+        "fa": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "geometry": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "type",
+            "coordinates"
+          ],
+          "properties": {
+            "type": {
+              "enum": [
+                "Point",
+                "LineString",
+                "MultiLineString",
+                "Polygon",
+                "MultiPolygon"
+              ]
+            },
+            "coordinates": {
+              "type": "array",
+              "minItems": 1
+            }
+          }
+        }
+      ]
+    },
+    "entity": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "lineIds",
+        "status",
+        "confidence",
+        "geometry",
+        "sourceIds",
+        "dataset"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "name": {
+          "$ref": "#/$defs/name"
+        },
+        "lineIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+          },
+          "uniqueItems": true
+        },
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "geometry": {
+          "$ref": "#/$defs/geometry"
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "dataset": {
+          "enum": [
+            "osm",
+            "research"
+          ]
+        },
+        "uncertaintyM": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "lastVerified": {
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "effectiveFrom": {
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "effectiveTo": {
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "notes": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/name"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "revisionIds": {
+          "$ref": "#/$defs/refs"
+        }
+      }
+    },
+    "segment": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/entity"
+        },
+        {
+          "type": "object",
+          "required": [
+            "alignmentType"
+          ],
+          "properties": {
+            "alignmentType": {
+              "$ref": "#/$defs/alignment"
+            },
+            "startStationId": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "endStationId": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "station": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/entity"
+        },
+        {
+          "type": "object",
+          "required": [
+            "opened",
+            "aliases",
+            "interchange"
+          ],
+          "properties": {
+            "opened": {
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "interchange": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "url",
+        "retrieved",
+        "published",
+        "type",
+        "reliability",
+        "license"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "retrieved": {
+          "type": "string",
+          "format": "date"
+        },
+        "published": {
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reliability": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "service": {
+      "type": "object",
+      "required": [
+        "id",
+        "lineId",
+        "sourceIds"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "lineId": {
+          "$ref": "#/$defs/id"
+        },
+        "stationIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+          },
+          "uniqueItems": true
+        },
+        "stationId": {
+          "$ref": "#/$defs/id"
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "status": {
+          "$ref": "#/$defs/status"
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "id",
+        "entityId",
+        "status",
+        "date",
+        "sourceIds"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "entityId": {
+          "$ref": "#/$defs/id"
+        },
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      }
+    }
+  }
+}

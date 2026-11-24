@@ -342,9 +342,14 @@ def extract(file, output, date, source_url):
             {
                 "url": source_url,
                 "pbfSha256": sha.hexdigest(),
+                "sha256": {
+                    name: hashlib.sha256((output / name).read_bytes()).hexdigest()
+                    for name in ("network.json.gz", "context.json.gz")
+                },
                 "retrieved": date,
                 "snapshotTime": timestamp,
                 "license": "ODbL-1.0",
+                "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
                 "attribution": "© OpenStreetMap contributors",
                 "bounds": BBOX,
                 "networkRelation": NETWORK,

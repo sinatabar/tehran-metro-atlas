@@ -1,0 +1,1539 @@
+{
+  "services": [
+    {
+      "id": "roster-1-main",
+      "lineId": "line-1",
+      "stationIds": [
+        "station-r7683369",
+        "station-r7685428",
+        "station-r7685443",
+        "station-r7685407",
+        "station-r7685422",
+        "station-r7685417",
+        "station-r7685418",
+        "station-r7685447",
+        "station-r7685410",
+        "station-r7679922",
+        "station-r7685453",
+        "station-r15640837",
+        "station-r7685409",
+        "station-r7679930",
+        "station-r7685452",
+        "station-r7677590",
+        "station-r7683377",
+        "station-r7645336",
+        "station-r7680024",
+        "station-r7683370",
+        "station-r7685442",
+        "station-r7683375",
+        "station-r7673382",
+        "station-r7685445",
+        "station-r7682921",
+        "station-r7685458",
+        "station-r7645342",
+        "station-r7645338",
+        "station-r7645337"
+      ],
+      "corroboratesServiceId": "service-r19967673",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "name": {
+        "fa": "تجریش – کهریزک",
+        "en": "Tajrish – Kahrizak"
+      }
+    },
+    {
+      "id": "roster-1-parand",
+      "lineId": "line-1",
+      "stationIds": [
+        "station-r7645342",
+        "station-r7679813",
+        "station-r7645341",
+        "station-r16513677"
+      ],
+      "corroboratesServiceId": "service-r6151834",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-parand",
+        "vavan-progress"
+      ],
+      "name": {
+        "fa": "شاهد باقرشهر – شهر پرند",
+        "en": "Shahed - Bagher Shahr – Shahr-e Parand"
+      }
+    },
+    {
+      "id": "roster-2-main",
+      "lineId": "line-2",
+      "stationIds": [
+        "station-r7643582",
+        "station-r7664376",
+        "station-r7682848",
+        "station-r7673511",
+        "station-r7673342",
+        "station-r7685405",
+        "station-r7673508",
+        "station-r7685413",
+        "station-r7677590",
+        "station-r7685454",
+        "station-r7685406",
+        "station-r7680018",
+        "station-r10068531",
+        "station-r7685411",
+        "station-r7685420",
+        "station-r7685438",
+        "station-r7685439",
+        "station-r7685425",
+        "station-r7685455",
+        "station-r7645624",
+        "station-r7645626",
+        "station-r7645625"
+      ],
+      "corroboratesServiceId": "service-r2431321",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "name": {
+        "fa": "تهران صادقیه – فرهنگسرا",
+        "en": "Sadeghiyeh – Farhangsara"
+      }
+    },
+    {
+      "id": "roster-3-main",
+      "lineId": "line-3",
+      "stationIds": [
+        "station-r7645623",
+        "station-r7645622",
+        "station-r12721904",
+        "station-r7685401",
+        "station-r9874847",
+        "station-r7685399",
+        "station-r7685400",
+        "station-r7685404",
+        "station-r7685403",
+        "station-r7685457",
+        "station-r7685402",
+        "station-r7679922",
+        "station-r7685429",
+        "station-r7685398",
+        "station-r9468296",
+        "station-r7645444",
+        "station-r9588054",
+        "station-r8493369",
+        "station-r7685426",
+        "station-r7685412",
+        "station-r7682919",
+        "station-r7683322",
+        "station-r7649047",
+        "station-r7649048",
+        "station-r7649049"
+      ],
+      "corroboratesServiceId": "service-r7770933",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "name": {
+        "fa": "قائم – آزادگان",
+        "en": "Ghaem – Azadegan"
+      }
+    },
+    {
+      "id": "roster-4-main",
+      "lineId": "line-4",
+      "stationIds": [
+        "station-r15796007",
+        "station-r7643581",
+        "station-r7682785",
+        "station-r7673389",
+        "station-r7677559",
+        "station-r7685450",
+        "station-r7685440",
+        "station-r7673511",
+        "station-r13585767",
+        "station-r7645439",
+        "station-r7645444",
+        "station-r7685444",
+        "station-r7679930",
+        "station-r7680018",
+        "station-r9468299",
+        "station-r7685427",
+        "station-r7685433",
+        "station-r7645438",
+        "station-r7645442",
+        "station-r7645443"
+      ],
+      "corroboratesServiceId": "service-r443307",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram",
+        "council-transit-bonds"
+      ],
+      "name": {
+        "fa": "علامه جعفری – شهید کلاهدوز",
+        "en": "Allameh Ja'fari – Shahid Kolahdouz"
+      }
+    },
+    {
+      "id": "roster-4-mehrabad",
+      "lineId": "line-4",
+      "stationIds": [
+        "station-r7673389",
+        "station-r7659323",
+        "station-r7659322"
+      ],
+      "corroboratesServiceId": "service-r7683584",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "name": {
+        "fa": "بیمه – پایانه ۴ و ۶ فرودگاه مهرآباد",
+        "en": "Bimeh – Mehrabad Airport Terminals 4 & 6"
+      }
+    },
+    {
+      "id": "roster-5-main",
+      "lineId": "line-5",
+      "stationIds": [
+        "station-r11697864",
+        "station-r17353953",
+        "station-r7643569",
+        "station-r7643570",
+        "station-r7643571",
+        "station-r7643572",
+        "station-r7643574",
+        "station-r7643573",
+        "station-r7643576",
+        "station-r7643568",
+        "station-r7643575",
+        "station-r7643581",
+        "station-r7643582"
+      ],
+      "corroboratesServiceId": "service-r443301",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-fakhrizadeh"
+      ],
+      "name": {
+        "fa": "شهید سپهبد قاسم سلیمانی – تهران صادقیه",
+        "en": "Shahid Qasem Soleimani – Sadeghiyeh"
+      }
+    },
+    {
+      "id": "roster-6-main",
+      "lineId": "line-6",
+      "stationIds": [
+        "station-r16492078",
+        "station-r17352773",
+        "station-r16492077",
+        "station-r16492076",
+        "station-r17352836",
+        "station-r14964244",
+        "station-r12519507",
+        "station-r12386192",
+        "station-r12933868",
+        "station-r19705590",
+        "station-r12818899",
+        "station-r15633847",
+        "station-r12818898",
+        "station-r9468296",
+        "station-r19714122",
+        "station-r15640837",
+        "station-r17352851",
+        "station-r20127933",
+        "station-r10068531",
+        "station-r9468299",
+        "station-r12040388",
+        "station-r18817798",
+        "station-r13341702",
+        "station-r9468293",
+        "station-r12111802",
+        "station-r9468294"
+      ],
+      "corroboratesServiceId": "service-r5697303",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-sarbaz",
+        "opening-maryam",
+        "l6-transfer-later",
+        "metro-progress-nov"
+      ],
+      "name": {
+        "fa": "شهید آرمان علی‌وردی – شهدای دولت آباد",
+        "en": "Shahid Arman Aliverdi – Shohada-ye Dowlat Abad"
+      }
+    },
+    {
+      "id": "roster-7-main",
+      "lineId": "line-7",
+      "stationIds": [
+        "station-r16492440",
+        "station-r17953293",
+        "station-r7685414",
+        "station-r11942360",
+        "station-r13169327",
+        "station-r12818899",
+        "station-r13343889",
+        "station-r13585767",
+        "station-r7673342",
+        "station-r7649031",
+        "station-r7682679",
+        "station-r7682680",
+        "station-r9588055",
+        "station-r8493369",
+        "station-r7680024",
+        "station-r13343890",
+        "station-r13343891",
+        "station-r19798579",
+        "station-r19698617",
+        "station-r15912974",
+        "station-r7673356",
+        "station-r20671703"
+      ],
+      "corroboratesServiceId": "service-r7429356",
+      "status": "operational",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-takhti",
+        "l6-transfer-later"
+      ],
+      "name": {
+        "fa": "میدان کتاب – ورزشگاه تختی",
+        "en": "Meydan-e Ketab – Varzeshgah-e Takhti"
+      }
+    }
+  ],
+  "stationEvidence": [
+    {
+      "stationId": "station-r10068531",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r11697864",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "Shahid Sepahbod Ghasem Soleimani",
+        "شهید سپهبد قاسم سلیمانی"
+      ]
+    },
+    {
+      "stationId": "station-r11942360",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12040388",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12111802",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12386192",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12519507",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12721904",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12818898",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12818899",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r12933868",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r13169327",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r13341702",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r13343889",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r13343890",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r13343891",
+      "sourceIds": [
+        "operator-diagram",
+        "line7-reopening"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r13585767",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r14964244",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r15633847",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r15640837",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r15796007",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r15912974",
+      "sourceIds": [
+        "operator-diagram",
+        "line7-reopening"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r16492076",
+      "sourceIds": [
+        "operator-diagram",
+        "northwest-openings"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2023-10-10",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r16492077",
+      "sourceIds": [
+        "operator-diagram",
+        "northwest-openings"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2023-10-10",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r16492078",
+      "sourceIds": [
+        "operator-diagram",
+        "northwest-openings"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2023-10-10",
+      "dateConfidence": "verified",
+      "aliases": [
+        "Kohsar",
+        "کوهسار"
+      ]
+    },
+    {
+      "stationId": "station-r16492440",
+      "sourceIds": [
+        "operator-diagram",
+        "northwest-openings"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2023-10-10",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r16513677",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-parand"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2023-11-30",
+      "dateConfidence": "verified",
+      "notes": {
+        "fa": "افتتاح رسمی ۹ آذر بود. بهره‌بردار پذیرش مسافر را برای ۱۰ آذر اعلام کرد.",
+        "en": "The official inauguration was on 30 November. The operator announced passenger boarding for 1 December."
+      }
+    },
+    {
+      "stationId": "station-r17352773",
+      "sourceIds": [
+        "operator-diagram",
+        "march-2024-openings"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2024-03-16",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r17352836",
+      "sourceIds": [
+        "operator-diagram",
+        "march-2024-openings",
+        "council-transit-bonds"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2024-03-16",
+      "dateConfidence": "verified",
+      "notes": {
+        "fa": "خدمات مسافری خط شش برقرار است. دسترسی خط چهار در طرح توسعه غربی قرار دارد.",
+        "en": "Line 6 serves passengers here. Line 4 access belongs to the western extension project."
+      }
+    },
+    {
+      "stationId": "station-r17352851",
+      "sourceIds": [
+        "operator-diagram",
+        "march-2024-openings"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2024-03-16",
+      "dateConfidence": "verified",
+      "aliases": [
+        "Khanevadeh Hospital",
+        "بیمارستان خانواده"
+      ]
+    },
+    {
+      "stationId": "station-r17353953",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-fakhrizadeh"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2023-09-23",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r17953293",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r18817798",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r19698617",
+      "sourceIds": [
+        "operator-diagram",
+        "line7-reopening"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r19705590",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r19714122",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-maryam"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2025-11-29",
+      "dateConfidence": "verified",
+      "aliases": [
+        "Nejatollahi",
+        "Virgin Mary",
+        "استاد نجات‌اللهی",
+        "شهید نجات‌اللهی"
+      ],
+      "notes": {
+        "fa": "نام طرح اولیه «استاد نجات‌اللهی» بود. ایستگاه در نزدیکی کلیسای جامع ارامنه قرار دارد.",
+        "en": "The original planning name was Ostad Nejatollahi. The station is near the Armenian cathedral."
+      }
+    },
+    {
+      "stationId": "station-r19798579",
+      "sourceIds": [
+        "operator-diagram",
+        "line7-reopening",
+        "l6-transfer-later",
+        "l6-transfer-earlier"
+      ],
+      "lastVerified": "2026-11-24",
+      "notes": {
+        "fa": "خط هفت در این ایستگاه مسافر می‌پذیرد. مجری اتصال خط شش در ۱۸ آبان ۱۴۰۵ از ادامه کار خبر داد.",
+        "en": "This station serves Line 7. The project lead reported ongoing construction of the Line 6 connection on 9 November 2026."
+      },
+      "aliases": [
+        "17 Shahrivar",
+        "Hefdah Shahrivar",
+        "۱۷ شهریور"
+      ]
+    },
+    {
+      "stationId": "station-r20127933",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-sarbaz"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "سرباز"
+      ],
+      "opened": "2026-01-13",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r20671703",
+      "sourceIds": [
+        "operator-diagram",
+        "opening-takhti"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2026-05-12",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r7643568",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643569",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643570",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643571",
+      "sourceIds": [
+        "operator-diagram",
+        "first-stations"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "1999-03-07",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r7643572",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643573",
+      "sourceIds": [
+        "operator-diagram",
+        "first-stations"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "1999-03-07",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r7643574",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643575",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643576",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643581",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7643582",
+      "sourceIds": [
+        "operator-diagram",
+        "first-stations"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "Sadeghieh",
+        "Tehran (Sadeghiyeh)",
+        "تهران (صادقیه)",
+        "تهران صادقیه"
+      ],
+      "opened": "1999-03-07",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r7645336",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645337",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645338",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645341",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645342",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645438",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645439",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645442",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645443",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645444",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645622",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645623",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645624",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "Shahid Bagheri",
+        "شهید باقری"
+      ]
+    },
+    {
+      "stationId": "station-r7645625",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7645626",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7649031",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7649047",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "عبدال‌آباد"
+      ]
+    },
+    {
+      "stationId": "station-r7649048",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7649049",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7659322",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "پایانه ۴ و ۶ فرودگاه مهرآباد"
+      ]
+    },
+    {
+      "stationId": "station-r7659323",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "پایانه ۱ و ۲ فرودگاه مهرآباد"
+      ]
+    },
+    {
+      "stationId": "station-r7664376",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7673342",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7673356",
+      "sourceIds": [
+        "operator-diagram",
+        "line7-reopening"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7673382",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7673389",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7673508",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7673511",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7677559",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7677590",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7679813",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "نمایشگاه شهر آفتاب"
+      ]
+    },
+    {
+      "stationId": "station-r7679922",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7679930",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7680018",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7680024",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7682679",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7682680",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7682785",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7682848",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7682919",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7682921",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7683322",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7683369",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7683370",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7683375",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7683377",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685398",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685399",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685400",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685401",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685402",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685403",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685404",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685405",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685406",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685407",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685409",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685410",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685411",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685412",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685413",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685414",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685417",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685418",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685420",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685422",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685425",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685426",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685427",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685428",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685429",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685433",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685438",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685439",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685440",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24",
+      "aliases": [
+        "دکتر حبیب‌الله"
+      ]
+    },
+    {
+      "stationId": "station-r7685442",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685443",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685444",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685445",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685447",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685450",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685452",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685453",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685454",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685455",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685457",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r7685458",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r8493369",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r9468293",
+      "sourceIds": [
+        "operator-diagram",
+        "line6-inauguration"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2019-04-07",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r9468294",
+      "sourceIds": [
+        "operator-diagram",
+        "line6-inauguration"
+      ],
+      "lastVerified": "2026-11-24",
+      "opened": "2019-04-07",
+      "dateConfidence": "verified"
+    },
+    {
+      "stationId": "station-r9468296",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r9468299",
+      "sourceIds": [
+        "operator-diagram",
+        "line6-inauguration"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r9588054",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r9588055",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "stationId": "station-r9874847",
+      "sourceIds": [
+        "operator-diagram"
+      ],
+      "lastVerified": "2026-11-24"
+    }
+  ],
+  "placeEvidence": [
+    {
+      "placeId": "place-vanak-square",
+      "sourceIds": [
+        "line9-earlier",
+        "line9-start",
+        "sabir-line9"
+      ],
+      "notes": {
+        "fa": "در شرح مسیر سال ۱۴۰۳ خط نه از میدان ونک نام برده شد. گزارش آغاز عملیات در آذر ۱۴۰۵ جانمایی ایستگاهی در میدان را مشخص نکرد.",
+        "en": "A 2024 description of Line 9 names Vanak Square on the corridor. The November 2026 launch report does not locate a station in the square."
+      }
+    },
+    {
+      "placeId": "place-vanak",
+      "sourceIds": [
+        "line9-earlier",
+        "line9-start",
+        "sabir-line9"
+      ],
+      "notes": {
+        "fa": "گزارش سال ۱۴۰۳ به میدان ونک در مسیر خط نه اشاره دارد. برای ارزیابی دسترسی، میدان و محله ونک را جداگانه جست‌وجو کنید.",
+        "en": "A 2024 description of Line 9 names Vanak Square. Search the square and the neighborhood separately when examining access."
+      }
+    },
+    {
+      "placeId": "place-rafsanjani",
+      "sourceIds": [
+        "master-plan-brief",
+        "line10-west"
+      ],
+      "notes": {
+        "fa": "بزرگراه هاشمی رفسنجانی در توصیف تاریخی کریدور خط ده آمده است. جانمایی دقیق ایستگاهی بر بزرگراه در اسناد بررسی‌شده احراز نشد.",
+        "en": "A historical Line 10 corridor description names Hashemi Rafsanjani Highway. The reviewed sources do not establish a precise station location on it."
+      }
+    },
+    {
+      "placeId": "place-parkway",
+      "sourceIds": [
+        "line10-expanded",
+        "line10-west"
+      ],
+      "notes": {
+        "fa": "پارک‌وی در فهرست برنامه‌ریزی خط ده به نقل از مدیر طرح آمده است. نام‌گذاری نهایی، محل سکو و تاریخ افتتاح مشخص نیست.",
+        "en": "A planning account attributed to the Line 10 director names Parkway. A final passenger name, platform location and opening date remain unverified."
+      }
+    },
+    {
+      "placeId": "place-mellat-park",
+      "sourceIds": [
+        "line10-expanded",
+        "line9-earlier",
+        "sabir-line9"
+      ],
+      "notes": {
+        "fa": "در گزارش‌های بررسی‌شده ایستگاهی با جانمایی مستند در بوستان ملت پیدا نشد. میدان ملتِ ذکرشده در مسیر خط نه مکان دیگری است.",
+        "en": "The reviewed reports do not identify a station in Mellat Park. Meydan-e Mellat in the Line 9 corridor description is a different place."
+      }
+    },
+    {
+      "placeId": "place-jordan",
+      "sourceIds": [
+        "line10-expanded",
+        "line9-earlier"
+      ],
+      "notes": {
+        "fa": "در منابع بررسی‌شده محل دقیق ایستگاه آینده برای محله جردن احراز نشده است. نام بوستان یا محله به‌تنهایی مبنای جانمایی ایستگاه نیست.",
+        "en": "The reviewed sources do not establish a future station location for Jordan. Nearby named corridors alone do not establish station access."
+      }
+    },
+    {
+      "placeId": "place-mandela",
+      "sourceIds": [
+        "line10-expanded",
+        "line9-earlier"
+      ],
+      "notes": {
+        "fa": "در منابع بررسی‌شده محل دقیق ایستگاه آینده برای بلوار نلسون ماندلا احراز نشده است. نام بوستان یا محله به‌تنهایی مبنای جانمایی ایستگاه نیست.",
+        "en": "The reviewed sources do not establish a future station location for Nelson Mandela Boulevard. Nearby named corridors alone do not establish station access."
+      }
+    }
+  ]
+}

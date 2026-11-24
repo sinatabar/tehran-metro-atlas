@@ -1,0 +1,18 @@
+{
+  "version": "2026.11.24.1",
+  "updated": "2026-11-24",
+  "revisions": [
+    {
+      "id": "revision-2026-11-24-1",
+      "date": "2026-11-24",
+      "version": "2026.11.24.1",
+      "notes": {
+        "en": "Initial passenger network and development inventory with separate releases for mapped and independently researched records.",
+        "fa": "نخستین فهرست شبکهٔ مسافری و طرح‌های توسعه با خروجی‌های جداگانه برای داده‌های نقشه و یافته‌های پژوهشی."
+      }
+    }
+  ],
+  "coveragePolicy": {
+    "requireIndependentOperatingRoster": true
+  }
+}

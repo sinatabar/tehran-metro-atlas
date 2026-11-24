@@ -1,0 +1,89 @@
+# Tehran Metro research inventory
+
+The evidence cutoff for this release is 24 November 2026 (۳ آذر ۱۴۰۵). The passenger inventory has seven operating line numbers and nine service patterns, including the Imam Khomeini Airport–Parand and Mehrabad branches. The reviewed network also contains four future numbered lines and a separate inventory of extensions, regional proposals and light rail. Status describes infrastructure at the last documented review. This atlas does not supply live operating notices.
+
+در این نسخه، هفت خط بهره‌برداری‌شده، انشعاب‌های فرودگاه و پرند، چهار خط جدید و مجموعه‌ای از طرح‌های توسعه شهری و حومه بررسی شده‌اند. نام یک میدان یا محله در گزارش طرح برای تعیین مختصات ایستگاه کافی نیست. آخرین بازبینی در ۳ آذر ۱۴۰۵ انجام شده است. منابع هر ادعا، تاریخ آن و محدودیت‌های شواهد در داده‌های منتشرشده ثبت شده‌اند.
+
+## Evidence and review method
+
+1. Search both Persian and English, giving priority to the implementing company, operator, municipality, transport ministry and city or national traffic councils. Search each line number using Persian, Arabic and Latin digits. Search the actual names of termini, individual stations and possible interchanges. Distinguish بهره‌برداری and مسافرگیری from تجهیز کارگاه, آغاز عملیات اجرایی, قرارداد, تست گرم and تصویب.
+2. Identify the speaker, decision-making body, date of the event, date of publication, publication medium and whether a report concerns the whole line, a work package, one entrance or passenger service. A syndicated interview is attributable to its speaker, with the accessible publisher recorded. A second publication of the same interview adds no independent observation.
+3. Inspect source figures at full resolution. Read the operator’s symbols, names and line endpoints in both languages. Check operating station sequences against OSM service relations, keeping an independently reviewed ordered list. Amend the diagram’s service state only with a later opening or access report. Check conditions for forecasts, such as financing or a test run.
+4. For geography, prefer documented, redistributable coordinates and linework. The OSM snapshot has feature-level lineage. The passenger diagram and master-plan schematics establish names or line associations and have no georeferenced positional evidence suitable for this release. Every future physical station record currently has null geometry. Future service at a mapped interchange can reuse the station identity while the prospective platform location remains unknown.
+5. Retain conflicts, check whether a newer publication actually supersedes the older claim, and record the reason for a status change. A status or station order from an external feed needs review before publication. Recheck municipal announcements around each opening, and repeat the full roster and source-rights review for each dataset release.
+
+The source registry records publication and retrieval dates separately. Undetermined publication dates are null. A source ID links to the same evidence across individual features and history records. For publisher references, rights and page locators see the [source register](../data/sources/registry.json). The original independent assertions and OSM snapshot are [separate reviewed inputs](../data/reviewed/).
+
+## Plans and geographical datasets
+
+- The Gueno/SYSTRA master-plan study started in 2016. Gueno dates national traffic council approval of its update to 19 February 2020. The spring 2020 planning journal and a subsequent interview illustrate the envisioned network. The later issue’s printed page 7 (PDF page 9) labels Lines 8–11 and Express A and B. [Consultant’s account](https://www.guenoengineers.com/contractor/blog/1582635005) · [Spring 2020 journal](https://www.shahrhayejahan.ir/FileUpload/Files/Files/File/6363750187980000.pdf) · [Phasing and historical schematic](https://shahrhayejahan.ir/FileUpload/Files/Files/File/8063835860780000.pdf)
+- A review reported in February 2024 compared scenarios and changed the four metro corridors by roughly 10–15% overall. The account reports a change of more than 60% to Express B. A deputy mayor speaking at the 2026 Line 9 launch separately dated approval of the four new lines to Iranian year 1400. These references concern multiple planning decisions. The exact relationship between their signed instruments and cadastral annexes remains open. See `master-plan-review-2024` and `line9-start` in the [registry](../data/sources/registry.json).
+- The bilingual passenger PDF carries the operating company’s identity. The copy available for review was hosted by a third party. Its file metadata gives 14 October 2025 as the creation date. Its issue date is unknown. The registry stores the file hash and page locator. The seven operating line swatches were sampled from the diagram. Its plans and colours for future lines require separate verification. [Passenger diagram](https://www.saadatrent.com/mag/wp-content/uploads/2026/02/tehran-metro-map-v2-1.pdf)
+- The 23 November 2026 OSM extract supplies high-confidence representative station points, mapped railway linework with approximate positional confidence, and geographic context. WGS84 longitude/latitude comes from the licensed OSM snapshot. The diagram’s station symbols were checked visually and were never digitized for geometry. No official survey, GIS layer with a verified reuse licence or georeferenced engineering annex for the future alignments was established. No satellite imagery was copied. [Extraction and source lineage](OSM.md)
+- The supplied public My Maps viewer is a historical lead. A KML endpoint responded with HTTP 200 and attachment headers on the review date. The author’s identity and a grant to redistribute its contents remain unverified. No feature depends on this reference. [Historical viewer](https://www.google.com/maps/d/u/0/viewer?mid=1Mzl8gQSK6Nz0G9IKwouXwF_u5Y26WMwj)
+
+## Passenger roster
+
+Each ordered roster below can be inspected station by station in the [independent review](../data/reviewed/research/roster.json). Every operational station has a review record. Every consecutive pair is checked against the mapped service order, including reversed source direction. The operator diagram and later opening reports substantiate service identity. OSM identifies representative locations. No surveyed platform precision or universal accessibility is inferred.
+
+| Line | Passenger pattern | Stops on pattern |
+| --- | --- | ---: |
+| 1 | Tajrish – Kahrizak | 29 |
+| 1 | Shahed–Bagher Shahr – Parand, via Imam Khomeini Airport | 4 |
+| 2 | Sadeghiyeh – Farhangsara | 22 |
+| 3 | Ghaem – Azadegan | 25 |
+| 4 | Allameh Jafari – Shahid Kolahdouz | 20 |
+| 4 | Bimeh – Mehrabad Airport Terminals 4 and 6 | 3 |
+| 5 | Shahid Qasem Soleimani (Hashtgerd) – Sadeghiyeh, via Karaj | 13 |
+| 6 | Shahid Arman Aliverdi (Kohsar) – Shohada-ye Dowlat Abad | 26 |
+| 7 | Meydan-e Ketab – Takhti Stadium | 22 |
+
+There are 164 stop appearances, 162 distinct station–line memberships, 145 physical station records and 17 cross-line interchanges in this review. The two branch junctions appear on both service patterns of their respective lines. The mayor reported 163 stations and 312 km on 20 November. That statement did not specify a denominator or supply an ordered roster. Reconciling the one-unit difference with the station–line membership count requires the operator’s counting ledger. No extra station has been inferred from the headline. [Mayor’s statement](https://newsmedia.tasnimnews.ir/fa/news/1405/08/29/3753660/%D8%B2%D8%A7%DA%A9%D8%A7%D9%86%DB%8C-%D8%B3%D9%87-%D9%88%D8%B1%D8%B2%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D8%B2%D8%B1%DA%AF-%D8%AF%D8%B1-%D9%85%D9%86%D8%A7%D8%B7%D9%82-4-15-%D9%88-18-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF)
+
+Maryam-e Moghaddas (29 November 2025), Sarbaz-e Vatan (13 January 2026) and Takhti Stadium (12 May 2026) have independent opening reports after the passenger PDF’s creation. The snapshot includes each station. The 17-Shahrivar complex currently contributes an operational Line 7 membership. Ayatollah Kashani currently contributes an operational Line 6 membership. Both prospective connections have their own service records. Seventeen physical stations have opening dates in this research release. The date on a station’s record refers to its documented inauguration. Parand’s report distinguishes its inauguration from first scheduled passenger service the following day. The historical series records selected milestones. It cannot establish a continuous series of total network length. [Station evidence](../data/reviewed/research/roster.json) · [Dated events](../data/reviewed/research/network.json)
+
+## Future numbered lines
+
+| Line | Evidence and scope at the cutoff | Outstanding evidence |
+| --- | --- | --- |
+| 8 | The director described early works and an eight-station first phase from Masoudieh towards Bahman Square. Separate reporting identifies Sarsabz as the other terminus of the longer line. Sources `line8-phasing`, `line8-termini`, `metro-progress-nov`. | Confirm individual worksites, the final station list and georeferenced phase boundaries. Drilling and preparatory civil works have distinct milestones. |
+| 9 | The 24 November launch identified Dowlat Abad towards Basij–Mahallati and Chitgar towards Olympic Village. The launch estimate of 53 km and 38 stations supersedes an earlier scope of 49 km and 37 stations. The contractor describes additional stops and transfers. Sources `line9-start`, `line9-earlier`, `sabir-line9`. | Obtain the signed detailed design. Contractor-only street references are proposed labels. They do not establish final passenger names or coordinates. |
+| 10 | Western works include Jannat Abad and Daryacheh. The 2025 director interviews identify Maleki, planned service at Vardavard, stops towards the Exhibition and a Parkway proposal. The May 2025 estimate was about 47 km for the full line. Sources `line10-west`, `line10-expanded`, `line10-earlier`. | Match western phase names to the latest approved station schedule. Labels such as Chaharbagh and Ashrafi appear in discussions of multiple lines. A transfer between same-named places requires separate evidence. |
+| 11 | The mayor reported contracting in April 2026. The project lead reported work beside Hakim Children’s Hospital in October. On 24 November the metro company reported mobilization pending formal contract notice. Sources `contracts-april`, `line11-hakim`, `metro-progress-nov`. | Obtain the formal notice and phase/site breakdown. The line is recorded as contract awarded and the individually reported first site as under construction. |
+
+The structured data contains 35 separately named future physical sites and 18 prospective service relationships. Some service records refer to a stop shared with another future line. Descriptive working names identify areas where a source mentions a stop. Unknown positions and line geometry remain null. Published whole-line design totals cannot substitute for an individual station inventory. [Future sites, service assertions and projects](../data/reviewed/research/network.json)
+
+## Extensions, other modes and conflicts
+
+| Project | Reviewed interpretation | Next evidence to obtain |
+| --- | --- | --- |
+| Vavan on the Parand branch | An October 2026 report described limited early progress and land issues. Reports also use Kamaliyeh. Current construction activity and the eventual passenger name remain unresolved. | A dated progress or passenger-opening notice. |
+| Line 2 east | In 2024, metro and tram options served the New East Terminal proposal. Subsequent reports identify work on the metro extension. A June 2026 opening forecast depended on funding. October 2026 reporting targeted testing in Esfand 1405 (February–March 2027). Both historical alternatives remain in the data. | Confirmation of testing, followed separately by passenger commissioning. |
+| Line 4 | Works beyond Allameh Jafari include a connection at Kashani and a Chaharbagh station. The eastern extension was in preparation in the 24 November account. | Western platform opening and a construction start on the eastern section. |
+| Line 6 south and west | An earlier spring forecast for the Ray extension elapsed. The 24 November estimate was one to two months for the first five kilometres. The passenger map separately labels the shrine square and the shrine. The longer-term proposal continues towards Shahr-e Rey and the national railway. The western extension remains a planning record. | Verify which shrine label applies to the first terminus. Obtain the opening notice and station-specific commissioning dates. |
+| 17 Shahrivar | A September report described the Line 6 transfer as ready. A 9 November report described Line 6 passenger access as 62% complete. The present passenger roster and OSM show Line 7. | Joint operator notice confirming when passengers may transfer. |
+| Line 7 northwest | The project lead reported works beyond Ketab towards Chahardivari and Islamic Azad University. Tunnel progress establishes the extension’s status. | Evidence for each individual station’s progress and passenger name. |
+| Eslamshahr and Chahardangeh | Provincial and municipal reports describe site works, including Shohada-ye Chahardangeh and the connection towards Line 3 at Azadegan. An October 2026 inspection reported completion of tunnelling. | Equipment, commissioning, exact station positions and start of passenger service. |
+| Tehran–Pardis | A 2021 cabinet decision authorized participation in the suburban electric railway. The ministry was still following up in August 2026. | Construction commencement and a current detailed scheme. |
+| Regional and northern connections | Express A and B appear in the historical plan. The revised western metropolitan corridor connects several western towns towards Maleki. The mayor separately described five regional rail gateways in November 2026. A 2021 district mayor interview describes a northern Lines 1 and 3 study towards Pasdaran, Tajrish and Zafaraniyeh. | Establish project ownership, individual approvals and links between regional concepts. Geography and current northern construction remain unknown. |
+| Light rail | The council review and east-terminal interview identify an Azadi–East Terminal corridor and a second-priority Jannat Abad–Lavizan study. | Separate rail vehicle and alignment evidence from road-based demonstrations using the term tram. |
+
+The network model distinguishes city metro lines from regional or light-rail projects. Future expansion of neighbouring Karaj’s independent metro and the national railway’s commuter services requires separate network ownership, routes and service evidence before integrating those systems. Current passenger service on Tehran Line 5 already includes Karaj, Golshahr and Hashtgerd. [Source register and publication dates](../data/sources/registry.json)
+
+## Neighbourhood research
+
+- **Jordan and Nelson Mandela Boulevard.** The search index includes the district and boulevard. Current station access can be investigated from mapped points. None of the reviewed project documents establishes a future station position on this boulevard.
+- **Mellat Park.** The contractor’s Line 9 description identifies Meydan-e Mellat in Majidiyeh. That name refers to a square in a different area. It supplies no station evidence for Mellat Park.
+- **Parkway.** An account attributed to the Line 10 director identifies Parkway as a proposed station label. Its location, passenger name and opening date still need confirmation.
+- **Vanak.** An older Line 9 narrative places Vanak Square along the corridor. The square, Vanak neighbourhood and any future station are distinct geographical concepts. The November launch did not specify a station’s position at the square.
+- **Hashemi Rafsanjani Highway.** A historical plan describes a Line 10 corridor along this highway. Neither the plan nor the later progress reports reviewed here provide a publishable platform location at a specific junction.
+
+Each place has its own origin and searchable aliases. Project evidence is joined to the place separately. Distances to a representative place point are only a geographic aid, particularly for long roads or large neighbourhoods. [Place-by-place evidence](../data/reviewed/research/roster.json)
+
+## Priorities for the next review
+
+1. Acquire a current directly issued operator diagram, the counting ledger, and a dated station-by-line service list. Where authorized, compare their names, station status, civil works and numbering against the existing roster before approving changes.
+2. Obtain official council decisions and engineering annexes for the 2024 revision and the four works programmes. Request written redistribution terms and the coordinate reference system, scale, edition and validity of any geographical drawings. Use independent ground control and document error before georeferencing suitable maps. Keep approved and superseded options separately versioned.
+3. Follow the individual opening and transfer announcements for Ray, Kashani, 17 Shahrivar, the New East Terminal, the northwestern Line 7 extension and Eslamshahr. Preserve each superseded forecast in history.
+4. Continue station-by-station opening, platform, entrance and accessibility checks. Many historical dates and station accessibility details remain unknown. Verify road and landmark context, address aliases, the operator’s actual interchange paths and service boundaries before claiming barrier-free access or journey times.
+5. Review official progress reports for additional regional, commuter and light-rail projects. Approval, contracting, initial work and passenger commissioning each need distinct supporting claims. A missing route may remain in the directory with null geometry.

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "geofabrik-iran-replication",
+    "result": "baseline",
+    "validators": {
+      "etag": "\"71-660fa37ac2df5\"",
+      "lastModified": "Mon, 23 Nov 2026 23:47:32 GMT"
+    },
+    "checkedAt": "2026-11-24T12:10:24+00:00"
+  }
+]

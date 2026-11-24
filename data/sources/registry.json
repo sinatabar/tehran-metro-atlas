@@ -1,0 +1,1203 @@
+[
+  {
+    "id": "operator-diagram",
+    "title": "نقشه مترو تهران و حومه",
+    "name": {
+      "fa": "نقشه مترو تهران و حومه",
+      "en": "Tehran and suburban metro passenger diagram"
+    },
+    "publisher": "Tehran Urban & Suburban Railway Operation Co. (copy hosted by Saadatrent)",
+    "url": "https://www.saadatrent.com/mag/wp-content/uploads/2026/02/tehran-metro-map-v2-1.pdf",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "operator_diagram",
+    "reliability": "primary_mirrored",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-1",
+      "line-2",
+      "line-3",
+      "line-4",
+      "line-5",
+      "line-6",
+      "line-7"
+    ],
+    "stationIds": [
+      "station-abdolazim-shrine",
+      "station-abdolazim-square",
+      "station-chaharbagh",
+      "station-cheshmeh-ali",
+      "station-ebn-babviyeh",
+      "station-r10068531",
+      "station-r11697864",
+      "station-r11942360",
+      "station-r12040388",
+      "station-r12111802",
+      "station-r12386192",
+      "station-r12519507",
+      "station-r12721904",
+      "station-r12818898",
+      "station-r12818899",
+      "station-r12933868",
+      "station-r13169327",
+      "station-r13341702",
+      "station-r13343889",
+      "station-r13343890",
+      "station-r13343891",
+      "station-r13585767",
+      "station-r14964244",
+      "station-r15633847",
+      "station-r15640837",
+      "station-r15796007",
+      "station-r15912974",
+      "station-r16492076",
+      "station-r16492077",
+      "station-r16492078",
+      "station-r16492440",
+      "station-r16513677",
+      "station-r17352773",
+      "station-r17352836",
+      "station-r17352851",
+      "station-r17353953",
+      "station-r17953293",
+      "station-r18817798",
+      "station-r19698617",
+      "station-r19705590",
+      "station-r19714122",
+      "station-r19798579",
+      "station-r20127933",
+      "station-r20671703",
+      "station-r7643568",
+      "station-r7643569",
+      "station-r7643570",
+      "station-r7643571",
+      "station-r7643572",
+      "station-r7643573",
+      "station-r7643574",
+      "station-r7643575",
+      "station-r7643576",
+      "station-r7643581",
+      "station-r7643582",
+      "station-r7645336",
+      "station-r7645337",
+      "station-r7645338",
+      "station-r7645341",
+      "station-r7645342",
+      "station-r7645438",
+      "station-r7645439",
+      "station-r7645442",
+      "station-r7645443",
+      "station-r7645444",
+      "station-r7645622",
+      "station-r7645623",
+      "station-r7645624",
+      "station-r7645625",
+      "station-r7645626",
+      "station-r7649031",
+      "station-r7649047",
+      "station-r7649048",
+      "station-r7649049",
+      "station-r7659322",
+      "station-r7659323",
+      "station-r7664376",
+      "station-r7673342",
+      "station-r7673356",
+      "station-r7673382",
+      "station-r7673389",
+      "station-r7673508",
+      "station-r7673511",
+      "station-r7677559",
+      "station-r7677590",
+      "station-r7679813",
+      "station-r7679922",
+      "station-r7679930",
+      "station-r7680018",
+      "station-r7680024",
+      "station-r7682679",
+      "station-r7682680",
+      "station-r7682785",
+      "station-r7682848",
+      "station-r7682919",
+      "station-r7682921",
+      "station-r7683322",
+      "station-r7683369",
+      "station-r7683370",
+      "station-r7683375",
+      "station-r7683377",
+      "station-r7685398",
+      "station-r7685399",
+      "station-r7685400",
+      "station-r7685401",
+      "station-r7685402",
+      "station-r7685403",
+      "station-r7685404",
+      "station-r7685405",
+      "station-r7685406",
+      "station-r7685407",
+      "station-r7685409",
+      "station-r7685410",
+      "station-r7685411",
+      "station-r7685412",
+      "station-r7685413",
+      "station-r7685414",
+      "station-r7685417",
+      "station-r7685418",
+      "station-r7685420",
+      "station-r7685422",
+      "station-r7685425",
+      "station-r7685426",
+      "station-r7685427",
+      "station-r7685428",
+      "station-r7685429",
+      "station-r7685433",
+      "station-r7685438",
+      "station-r7685439",
+      "station-r7685440",
+      "station-r7685442",
+      "station-r7685443",
+      "station-r7685444",
+      "station-r7685445",
+      "station-r7685447",
+      "station-r7685450",
+      "station-r7685452",
+      "station-r7685453",
+      "station-r7685454",
+      "station-r7685455",
+      "station-r7685457",
+      "station-r7685458",
+      "station-r8493369",
+      "station-r9468293",
+      "station-r9468294",
+      "station-r9468296",
+      "station-r9468299",
+      "station-r9588054",
+      "station-r9588055",
+      "station-r9874847",
+      "station-vavan"
+    ],
+    "sha256": "d4498436885d817b6c4e912e508f2d34391a0e6a5872ff4d74293ca911bed148",
+    "locator": "PDF page 1, station symbols and seven colour swatches; embedded file created 2025-10-14. Public issue date unknown."
+  },
+  {
+    "id": "master-plan-gueno",
+    "title": "Update of Tehran Rail Master Plan",
+    "name": {
+      "fa": "به‌روزرسانی طرح جامع حمل و نقل ریلی تهران",
+      "en": "Update of Tehran Rail Master Plan"
+    },
+    "publisher": "Gueno Consulting Engineers",
+    "url": "https://www.guenoengineers.com/contractor/blog/1582635005",
+    "published": "2020-02-25",
+    "retrieved": "2026-11-24",
+    "type": "consultant_document",
+    "reliability": "primary",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-8",
+      "line-9",
+      "line-10",
+      "line-11"
+    ],
+    "stationIds": [],
+    "locator": "The consultant dates Supreme Traffic Coordination Council approval to 19 February 2020."
+  },
+  {
+    "id": "master-plan-brief",
+    "title": "حمل‌ونقل ریلی شهری؛ گفت‌وگو با علی امام، مدیرعامل شرکت مترو تهران",
+    "name": {
+      "fa": "حمل‌ونقل ریلی شهری؛ گفت‌وگو با علی امام، مدیرعامل شرکت مترو تهران",
+      "en": "Implementing the Tehran rail master plan"
+    },
+    "publisher": "World Cities / interview with Tehran Metro managing director",
+    "url": "https://www.shahrhayejahan.ir/FileUpload/Files/Files/File/6363750187980000.pdf",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "operator_interview",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-6",
+      "line-8",
+      "line-9",
+      "line-10",
+      "line-11"
+    ],
+    "stationIds": [
+      "station-masoudieh"
+    ],
+    "sha256": "af9107513099c870de58258057ed842beb7c234f173bcf40f8ac50b8d8c803dc",
+    "locator": "No. 29, Spring 2020. PDF pages 7–8 and interview elsewhere in issue."
+  },
+  {
+    "id": "master-plan-phasing",
+    "title": "گفت‌وگو درباره طرح جامع حمل و نقل ریلی پایتخت با افق ۱۴۲۰",
+    "name": {
+      "fa": "گفت‌وگو درباره طرح جامع حمل و نقل ریلی پایتخت با افق ۱۴۲۰",
+      "en": "Phasing the capital’s rail master plan"
+    },
+    "publisher": "World Cities / interview with Tehran Metro",
+    "url": "https://shahrhayejahan.ir/FileUpload/Files/Files/File/8063835860780000.pdf",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "operator_interview",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-6",
+      "line-7",
+      "line-8",
+      "line-9",
+      "line-10",
+      "line-11"
+    ],
+    "stationIds": [
+      "station-abdolazim-shrine",
+      "station-r7682921"
+    ],
+    "sha256": "fc06e70b98049407dfe22d2817f328e8f76c07d14b2efa4030970d45f7f48292",
+    "locator": "PDF pages 8–10; labelled Express A/B scheme on page 9. PDF page 12, Ray suburban rail interchange."
+  },
+  {
+    "id": "metro-progress-nov",
+    "title": "خط 9 مترو سه‌چهارم رینگ پیرامونی تهران را تکمیل می‌کند",
+    "name": {
+      "fa": "خط 9 مترو سه‌چهارم رینگ پیرامونی تهران را تکمیل می‌کند",
+      "en": "Tehran Metro managing director on Lines 8–11 and extensions"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1405/09/03/3756832/%D8%AE%D8%B7-9-%D9%85%D8%AA%D8%B1%D9%88-%D8%B3%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85-%D8%B1%DB%8C%D9%86%DA%AF-%D9%BE%DB%8C%D8%B1%D8%A7%D9%85%D9%88%D9%86%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%B1%D8%A7-%D8%AA%DA%A9%D9%85%DB%8C%D9%84-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-24",
+    "type": "operator_interview",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-4",
+      "line-6",
+      "line-7",
+      "line-8",
+      "line-9",
+      "line-10",
+      "line-11"
+    ],
+    "stationIds": [
+      "station-abdolazim-square",
+      "station-cheshmeh-ali",
+      "station-ebn-babviyeh",
+      "station-hakim-hospital",
+      "station-r9468294"
+    ]
+  },
+  {
+    "id": "line9-start",
+    "title": "خط 9 مترو، طولانی‌ترین خط مترویی در حال اجرای غرب آسیا",
+    "name": {
+      "fa": "خط 9 مترو، طولانی‌ترین خط مترویی در حال اجرای غرب آسیا",
+      "en": "Deputy mayor on the start of Line 9 works"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1405/09/03/3756841/%D8%AE%D8%B7-9-%D9%85%D8%AA%D8%B1%D9%88-%D8%B7%D9%88%D9%84%D8%A7%D9%86%DB%8C-%D8%AA%D8%B1%DB%8C%D9%86-%D8%AE%D8%B7-%D9%85%D8%AA%D8%B1%D9%88%DB%8C%DB%8C-%D8%AF%D8%B1-%D8%AD%D8%A7%D9%84-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%BA%D8%B1%D8%A8-%D8%A2%D8%B3%DB%8C%D8%A7",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-24",
+    "type": "municipal_announcement",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-8",
+      "line-9",
+      "line-10",
+      "line-11"
+    ],
+    "stationIds": [
+      "station-olympic",
+      "station-r7643568"
+    ]
+  },
+  {
+    "id": "contracts-april",
+    "title": "زاکانی آخرین وضعیت توسعه خطوط 8، 9 و 11 مترو را اعلام کرد",
+    "name": {
+      "fa": "زاکانی آخرین وضعیت توسعه خطوط 8، 9 و 11 مترو را اعلام کرد",
+      "en": "Mayor on contracts for Lines 8, 9 and 11"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1405/02/05/3574481/%D8%B2%D8%A7%DA%A9%D8%A7%D9%86%DB%8C-%D8%A2%D8%AE%D8%B1%DB%8C%D9%86-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D8%AE%D8%B7%D9%88%D8%B7-8-9-%D9%88-11-%D9%85%D8%AA%D8%B1%D9%88-%D8%B1%D8%A7-%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%DA%A9%D8%B1%D8%AF",
+    "published": "2026-04-25",
+    "retrieved": "2026-11-24",
+    "type": "municipal_interview",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-8",
+      "line-9",
+      "line-11"
+    ],
+    "stationIds": []
+  },
+  {
+    "id": "line8-phasing",
+    "title": "پیگیری عملیات اجرایی خط ۸ مترو تهران",
+    "name": {
+      "fa": "پیگیری عملیات اجرایی خط ۸ مترو تهران",
+      "en": "Line 8 project director on civil works and the first phase"
+    },
+    "publisher": "Mehr News Agency",
+    "url": "https://mehrnews.com/x3dBF4",
+    "published": "2026-11-14",
+    "retrieved": "2026-11-24",
+    "type": "project_report",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-8"
+    ],
+    "stationIds": [
+      "station-masoudieh"
+    ]
+  },
+  {
+    "id": "line11-hakim",
+    "title": "بیمارستان کودکان حکیم نخستین ایستگاه خط ۱۱ مترو تهران می‌شود",
+    "name": {
+      "fa": "بیمارستان کودکان حکیم نخستین ایستگاه خط ۱۱ مترو تهران می‌شود",
+      "en": "Line 11 project director identifies the first station"
+    },
+    "publisher": "Mehr News Agency",
+    "url": "https://mehrnews.com/x3drZv",
+    "published": "2026-10-27",
+    "retrieved": "2026-11-24",
+    "type": "project_report",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-11"
+    ],
+    "stationIds": [
+      "station-hakim-hospital",
+      "station-nikpasandi",
+      "station-r7649049",
+      "station-r7685445"
+    ],
+    "mirrorUrl": "https://dailybulletin.ir/news/بیمارستان-کودکان-حکیم-نخستین-ایستگاه-خط-۱۱-مترو-تهران-میشود/"
+  },
+  {
+    "id": "line10-west",
+    "title": "خط 10 مترو/ پروژه 6ساله با 4 دستگاه TBM انجام می‌شود",
+    "name": {
+      "fa": "خط 10 مترو/ پروژه 6ساله با 4 دستگاه TBM انجام می‌شود",
+      "en": "Line 10 project director describes the western section"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1404/03/07/3322955/%D8%AE%D8%B7-10-%D9%85%D8%AA%D8%B1%D9%88-%D9%BE%D8%B1%D9%88%DA%98%D9%87-6%D8%B3%D8%A7%D9%84%D9%87-%D8%A8%D8%A7-4-%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-tbm-%D8%A7%D9%86%D8%AC%D8%A7%D9%85-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF/amp",
+    "published": "2025-05-28",
+    "retrieved": "2026-11-24",
+    "type": "project_report",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-6",
+      "line-7",
+      "line-9",
+      "line-10"
+    ],
+    "stationIds": [
+      "station-atisaz",
+      "station-daryacheh",
+      "station-exhibition",
+      "station-fouladvand",
+      "station-iranshahr",
+      "station-jannat-abad",
+      "station-maleki",
+      "station-moj",
+      "station-olympic",
+      "station-otrish",
+      "station-r16492078",
+      "station-r16492440",
+      "station-sahel-square",
+      "station-sardar-jangal"
+    ]
+  },
+  {
+    "id": "line10-earlier",
+    "title": "خط 10 متروی تهران به طول 43 کیلومتر چه ویژگی‌هایی دارد؟",
+    "name": {
+      "fa": "خط 10 متروی تهران به طول 43 کیلومتر چه ویژگی‌هایی دارد؟",
+      "en": "Earlier Line 10 scope and first section"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1402/07/25/2972597/%D8%AE%D8%B7-10-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%D8%B7%D9%88%D9%84-43-%DA%A9%DB%8C%D9%84%D9%88%D9%85%D8%AA%D8%B1-%DA%86%D9%87-%D9%88%DB%8C%DA%98%DA%AF%DB%8C-%D9%87%D8%A7%DB%8C%DB%8C-%D8%AF%D8%A7%D8%B1%D8%AF/amp",
+    "published": "2023-10-17",
+    "retrieved": "2026-11-24",
+    "type": "development_report",
+    "reliability": "reported",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-10"
+    ],
+    "stationIds": []
+  },
+  {
+    "id": "line9-earlier",
+    "title": "کدام مناطق در مسیر خط 9 متروی تهران قرار دارند؟",
+    "name": {
+      "fa": "کدام مناطق در مسیر خط 9 متروی تهران قرار دارند؟",
+      "en": "Earlier Line 9 corridor description including Vanak Square"
+    },
+    "publisher": "Nour News",
+    "url": "https://nournews.ir/fa/news/199405/%DA%A9%D8%AF%D8%A7%D9%85-%D9%85%D9%86%D8%A7%D8%B7%D9%82-%D8%AF%D8%B1-%D9%85%D8%B3%DB%8C%D8%B1-%D8%AE%D8%B7-%D9%85%D8%AA%D8%B1%D9%88%DB%8C",
+    "published": "2024-11-13",
+    "retrieved": "2026-11-24",
+    "type": "development_report",
+    "reliability": "reported",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-9"
+    ],
+    "stationIds": []
+  },
+  {
+    "id": "council-transit-bonds",
+    "title": "تأمین مالی توسعه و تکمیل شبکه حمل و نقل عمومی شهر تهران",
+    "name": {
+      "fa": "تأمین مالی توسعه و تکمیل شبکه حمل و نقل عمومی شهر تهران",
+      "en": "Council budget committee on network investment priorities"
+    },
+    "publisher": "Tehran City Council",
+    "url": "https://t.me/shorashahrtehran/28791",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "council_communication",
+    "reliability": "primary",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-3",
+      "line-4",
+      "line-6",
+      "line-7",
+      "line-10"
+    ],
+    "stationIds": [
+      "station-azad-university",
+      "station-chaharbagh",
+      "station-chahardivari",
+      "station-r17352836"
+    ]
+  },
+  {
+    "id": "line7-northwest",
+    "title": "آغاز عملیات اجرایی پروژه احداث ایستگاه جدید مترو در خط ۷",
+    "name": {
+      "fa": "آغاز عملیات اجرایی پروژه احداث ایستگاه جدید مترو در خط ۷",
+      "en": "Line 7 project lead on the northwestern extension"
+    },
+    "publisher": "Mehr News Agency (syndicated)",
+    "url": "https://healtharticles.ir/health-startup/businesses-hospitals-clinics/528823/",
+    "published": "2025-06-11",
+    "retrieved": "2026-11-24",
+    "type": "project_report",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-7"
+    ],
+    "stationIds": [
+      "station-azad-university",
+      "station-chahardivari"
+    ]
+  },
+  {
+    "id": "l6-transfer-later",
+    "title": "پیشرفت ۶۲ درصدی دسترسی خط ۶ مترو به ایستگاه ۱۷ شهریور",
+    "name": {
+      "fa": "پیشرفت ۶۲ درصدی دسترسی خط ۶ مترو به ایستگاه ۱۷ شهریور",
+      "en": "Project lead reports incomplete Line 6 access at 17 Shahrivar"
+    },
+    "publisher": "Navgan News / Hamshahri Online",
+    "url": "https://navgannews.com/%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%AE%D8%B7-%DB%B6-%D9%85%D8%AA%D8%B1%D9%88-%D8%A8%D9%87-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%DB%B1%DB%B7-%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1/",
+    "published": "2026-11-09",
+    "retrieved": "2026-11-24",
+    "type": "project_report",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-6",
+      "line-7"
+    ],
+    "stationIds": [
+      "station-r19798579"
+    ]
+  },
+  {
+    "id": "l6-transfer-earlier",
+    "title": "ایستگاه تبادلی 17 شهریور در خط 6 مترو تهران آماده بهره‌برداری شد",
+    "name": {
+      "fa": "ایستگاه تبادلی 17 شهریور در خط 6 مترو تهران آماده بهره‌برداری شد",
+      "en": "September statement on the planned 17 Shahrivar transfer"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1405/07/05/3707541/%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D8%AA%D8%A8%D8%A7%D8%AF%D9%84%DB%8C-17-%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1-%D8%AF%D8%B1-%D8%AE%D8%B7-6-%D9%85%D8%AA%D8%B1%D9%88-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%A2%D9%85%D8%A7%D8%AF%D9%87-%D8%A8%D9%87%D8%B1%D9%87-%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%B4%D8%AF/amp",
+    "published": "2026-09-27",
+    "retrieved": "2026-11-24",
+    "type": "municipal_announcement",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-2",
+      "line-4",
+      "line-6",
+      "line-7"
+    ],
+    "stationIds": [
+      "station-r19798579"
+    ]
+  },
+  {
+    "id": "opening-maryam",
+    "title": "ایستگاه متروی مریم مقدس(س) افتتاح شد",
+    "name": {
+      "fa": "ایستگاه متروی مریم مقدس(س) افتتاح شد",
+      "en": "Maryam-e Moghaddas station inauguration"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1404/09/08/3459088/%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D9%85%D8%B1%DB%8C%D9%85-%D9%85%D9%82%D8%AF%D8%B3-%D8%B3-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%B4%D8%AF",
+    "published": "2025-11-29",
+    "retrieved": "2026-11-24",
+    "type": "opening_report",
+    "reliability": "direct_reporting",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-6"
+    ],
+    "stationIds": [
+      "station-r19714122"
+    ]
+  },
+  {
+    "id": "opening-sarbaz",
+    "title": "ایستگاه متروی «سرباز» در میدان سپاه افتتاح شد",
+    "name": {
+      "fa": "ایستگاه متروی «سرباز» در میدان سپاه افتتاح شد",
+      "en": "Sarbaz station inauguration"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1404/10/23/3493576/%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D8%B3%D8%B1%D8%A8%D8%A7%D8%B2-%D8%AF%D8%B1-%D9%85%DB%8C%D8%AF%D8%A7%D9%86-%D8%B3%D9%BE%D8%A7%D9%87-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%B4%D8%AF",
+    "published": "2026-01-13",
+    "retrieved": "2026-11-24",
+    "type": "opening_report",
+    "reliability": "direct_reporting",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-6"
+    ],
+    "stationIds": [
+      "station-r20127933"
+    ]
+  },
+  {
+    "id": "opening-takhti",
+    "title": "تکمیل خط ۷ مترو با افتتاح ایستگاه ورزشگاه تختی",
+    "name": {
+      "fa": "تکمیل خط ۷ مترو با افتتاح ایستگاه ورزشگاه تختی",
+      "en": "Takhti Stadium station inauguration"
+    },
+    "publisher": "Agah News Agency",
+    "url": "https://agah.news/news/248104/detail",
+    "published": "2026-05-12",
+    "retrieved": "2026-11-24",
+    "type": "opening_report",
+    "reliability": "direct_reporting",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-7"
+    ],
+    "stationIds": [
+      "station-r20671703"
+    ]
+  },
+  {
+    "id": "line7-reopening",
+    "title": "بازگشایی 5 ایستگاه خط 7 مترو تهران از صبح امروز",
+    "name": {
+      "fa": "بازگشایی 5 ایستگاه خط 7 مترو تهران از صبح امروز",
+      "en": "Passenger service resumed at five Line 7 stations"
+    },
+    "publisher": "Tasnim News Agency / operating company",
+    "url": "https://www.tasnimnews.ir/fa/news/1405/02/20/3586711/%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%A7%DB%8C%DB%8C-5-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D8%AE%D8%B7-7-%D9%85%D8%AA%D8%B1%D9%88-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%A7%D8%B2-%D8%B5%D8%A8%D8%AD-%D8%A7%D9%85%D8%B1%D9%88%D8%B2",
+    "published": "2026-05-10",
+    "retrieved": "2026-11-24",
+    "type": "operator_announcement",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-7"
+    ],
+    "stationIds": [
+      "station-r13343891",
+      "station-r15912974",
+      "station-r19698617",
+      "station-r19798579",
+      "station-r7673356"
+    ]
+  },
+  {
+    "id": "l6-south-earlier",
+    "title": "افتتاح ایستگاه مترو حرم حضرت عبدالعظیم(ع) در بهار 1405",
+    "name": {
+      "fa": "افتتاح ایستگاه مترو حرم حضرت عبدالعظیم(ع) در بهار 1405",
+      "en": "Deputy mayor’s spring forecast for the Ray extension"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1404/11/14/3507933/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88-%D8%AD%D8%B1%D9%85-%D8%AD%D8%B6%D8%B1%D8%AA-%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B8%DB%8C%D9%85-%D8%B9-%D8%AF%D8%B1-%D8%A8%D9%87%D8%A7%D8%B1-1405",
+    "published": "2026-02-03",
+    "retrieved": "2026-11-24",
+    "type": "municipal_announcement",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-6"
+    ],
+    "stationIds": [
+      "station-abdolazim-square"
+    ]
+  },
+  {
+    "id": "l2-east-early",
+    "title": "افتتاح ایستگاه متروی \"پایانه جدید شرق\" در خرداد 1405",
+    "name": {
+      "fa": "افتتاح ایستگاه متروی \"پایانه جدید شرق\" در خرداد 1405",
+      "en": "Conditional forecast for the New East Terminal station"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1404/03/13/3326877/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%B4%D8%B1%D9%82-%D8%AF%D8%B1-%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF-1405",
+    "published": "2025-06-03",
+    "retrieved": "2026-11-24",
+    "type": "operator_interview",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-2"
+    ],
+    "stationIds": [
+      "station-east-terminal"
+    ]
+  },
+  {
+    "id": "extensions-oct",
+    "title": "افتتاح ورودی‌های جدید ۴ ایستگاه مترو تهران تا پایان سال",
+    "name": {
+      "fa": "افتتاح ورودی‌های جدید ۴ ایستگاه مترو تهران تا پایان سال",
+      "en": "Eastern extension progress and commissioning target"
+    },
+    "publisher": "Navgan News / municipal transport department",
+    "url": "https://navgannews.com/%D9%88%D8%B1%D9%88%D8%AF%DB%8C-%D9%87%D8%A7%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%DB%B4-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88/",
+    "published": "2026-10-19",
+    "retrieved": "2026-11-24",
+    "type": "municipal_announcement",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-2",
+      "line-4",
+      "line-6"
+    ],
+    "stationIds": [
+      "station-east-terminal"
+    ]
+  },
+  {
+    "id": "vavan-progress",
+    "title": "ایستگاه واوان؛ حلقه گمشده متروی تهران–پرند",
+    "name": {
+      "fa": "ایستگاه واوان؛ حلقه گمشده متروی تهران–پرند",
+      "en": "Limited progress on Vavan station"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1405/07/28/3727252/%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%88%D8%A7%D9%88%D8%A7%D9%86-%D8%AD%D9%84%D9%82%D9%87-%DA%AF%D9%85%D8%B4%D8%AF%D9%87-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D9%BE%D8%B1%D9%86%D8%AF/amp",
+    "published": "2026-10-20",
+    "retrieved": "2026-11-24",
+    "type": "project_report",
+    "reliability": "reported",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-1"
+    ],
+    "stationIds": [
+      "station-vavan"
+    ]
+  },
+  {
+    "id": "eslamshahr-project",
+    "title": "صرفه‌جویی سالانه 17.5 میلیون دلاری مترو اسلامشهر در انتظار بهره‌برداری",
+    "name": {
+      "fa": "صرفه‌جویی سالانه 17.5 میلیون دلاری مترو اسلامشهر در انتظار بهره‌برداری - تسنیم",
+      "en": "Provincial inspection of the Eslamshahr metro project"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://newsmedia.tasnimnews.ir/fa/news/1405/07/21/3721865/%D8%B5%D8%B1%D9%81%D9%87-%D8%AC%D9%88%DB%8C%DB%8C-%D8%B3%D8%A7%D9%84%D8%A7%D9%86%D9%87-17-5-%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D8%AF%D9%84%D8%A7%D8%B1%DB%8C-%D9%85%D8%AA%D8%B1%D9%88-%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D8%B4%D9%87%D8%B1-%D8%AF%D8%B1-%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D8%B1-%D8%A8%D9%87%D8%B1%D9%87-%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C",
+    "published": "2026-10-13",
+    "retrieved": "2026-11-24",
+    "type": "inspection_report",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-3"
+    ],
+    "stationIds": [
+      "station-chahardangeh"
+    ]
+  },
+  {
+    "id": "chahardangeh-project",
+    "title": "بازدید گسترده شهروندان چهاردانگه از پروژه مترو شهدا",
+    "name": {
+      "fa": "بازدید گسترده شهروندان چهاردانگه از پروژه مترو شهدا",
+      "en": "Municipal visit to Shohada-ye Chahardangeh station"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1404/08/20/3445222/%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%DA%AF%D8%B3%D8%AA%D8%B1%D8%AF%D9%87-%D8%B4%D9%87%D8%B1%D9%88%D9%86%D8%AF%D8%A7%D9%86-%DA%86%D9%87%D8%A7%D8%B1%D8%AF%D8%A7%D9%86%DA%AF%D9%87-%D8%A7%D8%B2-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%85%D8%AA%D8%B1%D9%88-%D8%B4%D9%87%D8%AF%D8%A7",
+    "published": "2025-11-11",
+    "retrieved": "2026-11-24",
+    "type": "project_report",
+    "reliability": "direct_reporting",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-3"
+    ],
+    "stationIds": [
+      "station-chahardangeh"
+    ]
+  },
+  {
+    "id": "pardis-authorization",
+    "title": "دولت مجوز احداث قطار برقی پردیس را برای «خاتم الانبیاء» صادر کرد",
+    "name": {
+      "fa": "دولت مجوز احداث قطار برقی پردیس را برای «خاتم الانبیاء» صادر کرد",
+      "en": "Cabinet authorizes participation in the Pardis electric rail project"
+    },
+    "publisher": "Didban Iran",
+    "url": "https://www.didbaniran.ir/%D8%A8%D8%AE%D8%B4-%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%DB%8C-4/101858-%D8%AF%D9%88%D9%84%D8%AA-%D9%85%D8%AC%D9%88%D8%B2-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D9%82%D8%B7%D8%A7%D8%B1-%D8%A8%D8%B1%D9%82%DB%8C-%D9%BE%D8%B1%D8%AF%DB%8C%D8%B3-%D8%B1%D8%A7-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AE%D8%A7%D8%AA%D9%85-%D8%A7%D9%84%D8%A7%D9%86%D8%A8%DB%8C%D8%A7%D8%A1-%D8%B5%D8%A7%D8%AF%D8%B1-%DA%A9%D8%B1%D8%AF",
+    "published": "2021-02-13",
+    "retrieved": "2026-11-24",
+    "type": "government_decision_report",
+    "reliability": "reported",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [],
+    "stationIds": []
+  },
+  {
+    "id": "pardis-ministry",
+    "title": "پردیس در دور باطل مدیریت و پروژه‌های نیمه‌تمام مسکن",
+    "name": {
+      "fa": "پردیس در دور باطل مدیریت و پروژه‌های نیمه‌تمام مسکن",
+      "en": "Transport minister on the suburban rail connection to Pardis"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1405/05/21/3669611/%D9%BE%D8%B1%D8%AF%DB%8C%D8%B3-%D8%AF%D8%B1-%D8%AF%D9%88%D8%B1-%D8%A8%D8%A7%D8%B7%D9%84-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%88-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%DB%8C%D9%85%D9%87-%D8%AA%D9%85%D8%A7%D9%85-%D9%85%D8%B3%DA%A9%D9%86/amp",
+    "published": "2026-08-12",
+    "retrieved": "2026-11-24",
+    "type": "ministry_report",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [],
+    "stationIds": []
+  },
+  {
+    "id": "official-count-nov",
+    "title": "زاکانی: سه ورزشگاه بزرگ در مناطق 4، 15 و 18 تهران احداث می‌شود",
+    "name": {
+      "fa": "زاکانی: سه ورزشگاه بزرگ در مناطق 4، 15 و 18 تهران احداث می‌شود - تسنیم",
+      "en": "Mayor’s reported network totals on 20 November"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://newsmedia.tasnimnews.ir/fa/news/1405/08/29/3753660/%D8%B2%D8%A7%DA%A9%D8%A7%D9%86%DB%8C-%D8%B3%D9%87-%D9%88%D8%B1%D8%B2%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D8%B2%D8%B1%DA%AF-%D8%AF%D8%B1-%D9%85%D9%86%D8%A7%D8%B7%D9%82-4-15-%D9%88-18-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF",
+    "published": "2026-11-20",
+    "retrieved": "2026-11-24",
+    "type": "municipal_announcement",
+    "reliability": "attributed_official",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-1",
+      "line-2",
+      "line-3",
+      "line-4",
+      "line-5",
+      "line-6",
+      "line-7"
+    ],
+    "stationIds": []
+  },
+  {
+    "id": "regional-gateways",
+    "title": "زاکانی: اتصال پنج ورودی تهران به شبکه ریلی دنبال می‌شود",
+    "name": {
+      "fa": "زاکانی: اتصال پنج ورودی تهران به شبکه ریلی دنبال می‌شود",
+      "en": "Mayor on five regional rail gateways"
+    },
+    "publisher": "Mehr News Agency",
+    "url": "https://www.mehrnews.com/news/7021645",
+    "published": "2026-11-24",
+    "retrieved": "2026-11-24",
+    "type": "municipal_announcement",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [],
+    "stationIds": []
+  },
+  {
+    "id": "first-stations",
+    "title": "افتتاح 3 ایستگاه متروی جدید طی روزهای پایانی سال",
+    "name": {
+      "fa": "افتتاح 3 ایستگاه متروی جدید طی روزهای پایانی سال",
+      "en": "Opening of the first three suburban stations"
+    },
+    "publisher": "Nour News / Tehran Metro",
+    "url": "https://nournews.ir/fa/news/166557/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%B7%DB%8C",
+    "published": "2024-03-04",
+    "retrieved": "2026-11-24",
+    "type": "operator_retrospective",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-5"
+    ],
+    "stationIds": [
+      "station-r7643571",
+      "station-r7643573",
+      "station-r7643582"
+    ]
+  },
+  {
+    "id": "northwest-openings",
+    "title": "مختصات ایستگاه‌های جدید مترو در پایتخت؛ ایستگاه‌های \"میدان کتاب، شهران، کوهسار و شهرزیبا\" در خدمت مردم فیلم",
+    "name": {
+      "fa": "مختصات ایستگاه‌های جدید مترو در پایتخت؛ ایستگاه‌های \"میدان کتاب، شهران، کوهسار و شهرزیبا\" در خدمت مردم فیلم",
+      "en": "Four northwestern stations opened"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1402/07/18/2969049/%D9%85%D8%AE%D8%AA%D8%B5%D8%A7%D8%AA-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%85%D8%AA%D8%B1%D9%88-%D8%AF%D8%B1-%D9%BE%D8%A7%DB%8C%D8%AA%D8%AE%D8%AA-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%DB%8C%D8%AF%D8%A7%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%B4%D9%87%D8%B1%D8%A7%D9%86-%DA%A9%D9%88%D9%87%D8%B3%D8%A7%D8%B1-%D9%88-%D8%B4%D9%87%D8%B1%D8%B2%DB%8C%D8%A8%D8%A7-%D8%AF%D8%B1-%D8%AE%D8%AF%D9%85%D8%AA-%D9%85%D8%B1%D8%AF%D9%85-%D9%81%DB%8C%D9%84%D9%85",
+    "published": "2023-10-10",
+    "retrieved": "2026-11-24",
+    "type": "opening_report",
+    "reliability": "reported",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-6",
+      "line-7"
+    ],
+    "stationIds": [
+      "station-r16492076",
+      "station-r16492077",
+      "station-r16492078",
+      "station-r16492440"
+    ]
+  },
+  {
+    "id": "march-2024-openings",
+    "title": "چهار ایستگاه جدید مترو تهران به بهره‌برداری رسید",
+    "name": {
+      "fa": "چهار ایستگاه جدید مترو تهران به بهره‌برداری رسید",
+      "en": "Three new stations and a transfer on Line 6"
+    },
+    "publisher": "Nour News",
+    "url": "https://nournews.ir/fa/news/167695/%DA%86%D9%87%D8%A7%D8%B1-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%85%D8%AA%D8%B1%D9%88-%D8%AA%D9%87%D8%B1%D8%A7%D9%86",
+    "published": "2024-03-16",
+    "retrieved": "2026-11-24",
+    "type": "opening_report",
+    "reliability": "reported",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-6",
+      "line-7"
+    ],
+    "stationIds": [
+      "station-r17352773",
+      "station-r17352836",
+      "station-r17352851"
+    ]
+  },
+  {
+    "id": "opening-parand",
+    "title": "پذیرش مسافر در ایستگاه مترو پرند از جمعه",
+    "name": {
+      "fa": "پذیرش مسافر در ایستگاه مترو پرند از جمعه",
+      "en": "Parand inauguration and start of passenger service"
+    },
+    "publisher": "Purson / Tehran operating company",
+    "url": "https://purson.ir/fa/content/560522/%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D8%B3%D8%A7%D9%81%D8%B1-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88-%D9%BE%D8%B1%D9%86%D8%AF-%D8%AC%D9%85%D8%B9%D9%87",
+    "published": "2023-11-30",
+    "retrieved": "2026-11-24",
+    "type": "operator_announcement",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-1"
+    ],
+    "stationIds": [
+      "station-r16513677"
+    ]
+  },
+  {
+    "id": "opening-fakhrizadeh",
+    "title": "افتتاح ایستگاه مترو شهید فخری‌زاده ‌در هشتگرد/ حرکت هر نیم ساعت یک قطار ‌در مسیر",
+    "name": {
+      "fa": "افتتاح ایستگاه مترو شهید فخری‌زاده ‌در هشتگرد/ حرکت هر نیم ساعت یک قطار ‌در مسیر",
+      "en": "Shahid Fakhrizadeh station opened"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://www.tasnimnews.ir/fa/news/1402/07/01/2960336/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A7%DB%8C%D8%B3%D8%AA%DA%AF%D8%A7%D9%87-%D9%85%D8%AA%D8%B1%D9%88-%D8%B4%D9%87%DB%8C%D8%AF-%D9%81%D8%AE%D8%B1%DB%8C-%D8%B2%D8%A7%D8%AF%D9%87-%D8%AF%D8%B1-%D9%87%D8%B4%D8%AA%DA%AF%D8%B1%D8%AF-%D8%AD%D8%B1%DA%A9%D8%AA-%D9%87%D8%B1-%D9%86%DB%8C%D9%85-%D8%B3%D8%A7%D8%B9%D8%AA-%DB%8C%DA%A9-%D9%82%D8%B7%D8%A7%D8%B1-%D8%AF%D8%B1-%D9%85%D8%B3%DB%8C%D8%B1",
+    "published": "2023-09-23",
+    "retrieved": "2026-11-24",
+    "type": "opening_report",
+    "reliability": "reported",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-5"
+    ],
+    "stationIds": [
+      "station-r17353953"
+    ]
+  },
+  {
+    "id": "line6-inauguration",
+    "title": "Phase 1 of Tehran Metro Line 6 inaugurated in Rouhani’s presence - Iran News Daily | Iran News Daily",
+    "name": {
+      "fa": "افتتاح نخستین بخش خط شش مترو تهران",
+      "en": "First phase of Tehran Metro Line 6 inaugurated"
+    },
+    "publisher": "Iran News Daily",
+    "url": "https://irannewsdaily.com/2019/04/phase-1-of-tehran-metro-line-6-inaugurated-in-rouhanis-presence/",
+    "published": "2019-04-07",
+    "retrieved": "2026-11-24",
+    "type": "opening_report",
+    "reliability": "reported",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-6"
+    ],
+    "stationIds": [
+      "station-r9468293",
+      "station-r9468294",
+      "station-r9468299"
+    ]
+  },
+  {
+    "id": "line10-expanded",
+    "title": "احداث خط ۱۰ متروی تهران به کجا رسید؟ - پایگاه خبری و تحلیلی ناوگان",
+    "name": {
+      "fa": "احداث خط ۱۰ متروی تهران به کجا رسید؟ - پایگاه خبری و تحلیلی ناوگان",
+      "en": "Line 10 station labels and phasing"
+    },
+    "publisher": "Navgan News / project director",
+    "url": "https://navgannews.com/%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D8%AE%D8%B7-%DB%B1%DB%B0-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%DA%A9%D8%AC%D8%A7-%D8%B1%D8%B3%DB%8C%D8%AF%D8%9F/",
+    "published": "2025-05-29",
+    "retrieved": "2026-11-24",
+    "type": "project_interview",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-5",
+      "line-10"
+    ],
+    "stationIds": [
+      "station-ardestani",
+      "station-farhang",
+      "station-kowsar",
+      "station-lashkari",
+      "station-parkway",
+      "station-pazhuhesh",
+      "station-r7643573"
+    ]
+  },
+  {
+    "id": "western-metropolitan",
+    "title": "استاندار تهران برای تشکیل هیئت‌مدیره متروی غرب مهلت ۱۰ روزه تعیین کرد",
+    "name": {
+      "fa": "استاندار تهران برای تشکیل هیئت‌مدیره متروی غرب مهلت ۱۰ روزه تعیین کرد",
+      "en": "Status of the western metropolitan suburban rail project"
+    },
+    "publisher": "Purson / Mehr News Agency",
+    "url": "https://purson.ir/fa/content/1459557/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%87%DB%8C%D8%A6%D8%AA-%D9%85%D8%AF%DB%8C%D8%B1%D9%87-%D9%85%D8%AA%D8%B1%D9%88%DB%8C-%D8%BA%D8%B1%D8%A8-%D9%85%D9%87%D9%84%D8%AA-%DB%B1%DB%B0",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "provincial_report",
+    "reliability": "reported",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [],
+    "stationIds": []
+  },
+  {
+    "id": "urbanrail-chronology",
+    "title": "UrbanRail.Net > Asia > Iran > TEHRAN Metro",
+    "name": {
+      "fa": "تاریخچه بهره‌برداری شبکه مترو تهران",
+      "en": "Tehran metro chronology"
+    },
+    "publisher": "UrbanRail.Net",
+    "url": "https://www.urbanrail.net/as/ir/tehr/tehran.htm",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "independent_chronology",
+    "reliability": "secondary_reference",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-1",
+      "line-2",
+      "line-3",
+      "line-4",
+      "line-5",
+      "line-6",
+      "line-7"
+    ],
+    "stationIds": [],
+    "locator": "Use historical line-opening dates and aliases only. Its Line 4 entry for Kashani conflicts with the operating diagram and the council work programme."
+  },
+  {
+    "id": "sabir-line9",
+    "title": "پروژه احداث خط ۹ مترو تهران - سابیر بین الملل",
+    "name": {
+      "fa": "پروژه احداث خط ۹ مترو تهران - سابیر بین الملل",
+      "en": "Contractor’s Line 9 project description"
+    },
+    "publisher": "Sabir International",
+    "url": "https://sabir-intl.com/projects/%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%A7%D8%AD%D8%AF%D8%A7%D8%AB-%D8%AE%D8%B7-%DB%B9-%D9%85%D8%AA%D8%B1%D9%88-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "contractor_project",
+    "reliability": "primary_for_project_description",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-1",
+      "line-2",
+      "line-3",
+      "line-4",
+      "line-5",
+      "line-6",
+      "line-7",
+      "line-8",
+      "line-9",
+      "line-10"
+    ],
+    "stationIds": [
+      "station-farrokhi-area",
+      "station-golnabi-area",
+      "station-javanan-area",
+      "station-meydan-mellat-area",
+      "station-r16492077",
+      "station-r7643568",
+      "station-r7645438",
+      "station-r7685400",
+      "station-r7685414",
+      "station-r7685418",
+      "station-r7685425"
+    ],
+    "locator": "Tehran Metro is named as client; contract year 1403 SH. The page has no publication date."
+  },
+  {
+    "id": "master-plan-review-2024",
+    "title": "شهرداری تهران یک گام به راه‌اندازی تراموا نزدیک شد/ اعلام جزئیات جلسه شورای‌عالی ترافیک",
+    "name": {
+      "fa": "شهرداری تهران یک گام به راه‌اندازی تراموا نزدیک شد/ اعلام جزئیات جلسه شورای‌عالی ترافیک",
+      "en": "Council reconsideration of the rapid-transit network"
+    },
+    "publisher": "Tasnim News Agency",
+    "url": "https://tasnimnews.ir/fa/news/1402/11/13/3031914/%D8%B4%D9%87%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-%DB%8C%DA%A9-%DA%AF%D8%A7%D9%85-%D8%A8%D9%87-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AA%D8%B1%D8%A7%D9%85%D9%88%D8%A7-%D9%86%D8%B2%D8%AF%DB%8C%DA%A9-%D8%B4%D8%AF-%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%AC%D8%B2%D8%A6%DB%8C%D8%A7%D8%AA-%D8%AC%D9%84%D8%B3%D9%87-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D8%B9%D8%A7%D9%84%DB%8C-%D8%AA%D8%B1%D8%A7%D9%81%DB%8C%DA%A9",
+    "published": "2024-02-02",
+    "retrieved": "2026-11-24",
+    "type": "council_report",
+    "reliability": "reported",
+    "license": "CC BY 4.0 (publisher footer); factual summary with attribution",
+    "lineIds": [
+      "line-1",
+      "line-2",
+      "line-3",
+      "line-4",
+      "line-5",
+      "line-6",
+      "line-7",
+      "line-8",
+      "line-9",
+      "line-10",
+      "line-11"
+    ],
+    "stationIds": []
+  },
+  {
+    "id": "east-terminal-options",
+    "title": "برنامه شرکت مترو برای توسعه خط دو به پایانه جدید شرق دو",
+    "name": {
+      "fa": "برنامه شرکت مترو برای توسعه خط دو به پایانه جدید شرق دو",
+      "en": "Eastern terminal alternatives and LRT corridors"
+    },
+    "publisher": "Mamlekat Online / Tehran Metro managing director",
+    "url": "https://www.mamlekatonline.ir/%D8%A8%D8%AE%D8%B4-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%DB%8C-27/142356-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%B4%D8%B1%DA%A9%D8%AA-%D9%85%D8%AA%D8%B1%D9%88-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D8%AE%D8%B7-%D8%AF%D9%88-%D8%A8%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%B4%D8%B1%D9%82-%D8%AF%D9%88",
+    "published": "2024-06-04",
+    "retrieved": "2026-11-24",
+    "type": "operator_interview",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-2"
+    ],
+    "stationIds": []
+  },
+  {
+    "id": "northern-interline",
+    "title": "مترو به “زعفرانیه” و “پاسداران” می رسد/ جزئیات اتصال خط سه به یک مترو",
+    "name": {
+      "fa": "مترو به “زعفرانیه” و “پاسداران” می رسد/ جزئیات اتصال خط سه به یک مترو",
+      "en": "District mayor on the northern Lines 1 and 3 connection"
+    },
+    "publisher": "ISNA interview (via Torbat-e Ma)",
+    "url": "https://torbatema.com/1399/10/26/%D9%85%D8%AA%D8%B1%D9%88-%D8%A8%D9%87-%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86%DB%8C%D9%87-%D9%88-%D9%BE%D8%A7%D8%B3%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D9%85%DB%8C-%D8%B1%D8%B3%D8%AF-%D8%AC%D8%B2/",
+    "published": "2021-01-15",
+    "retrieved": "2026-11-24",
+    "type": "district_interview",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-1",
+      "line-3"
+    ],
+    "stationIds": []
+  },
+  {
+    "id": "line8-termini",
+    "title": "آغاز عملیات اجرایی خط ۸ مترو در جنوب غرب تهران طی روزهای آتی",
+    "name": {
+      "fa": "آغاز عملیات اجرایی خط ۸ مترو در جنوب غرب تهران طی روزهای آتی",
+      "en": "Masoudieh–Sarsabz termini in the Line 8 plan"
+    },
+    "publisher": "Mehr News Agency",
+    "url": "https://mehrnews.com/x39X6L",
+    "published": "2025-12-23",
+    "retrieved": "2026-11-24",
+    "type": "municipal_announcement",
+    "reliability": "attributed_official",
+    "license": "No open reuse grant verified; factual reference only",
+    "lineIds": [
+      "line-2",
+      "line-8"
+    ],
+    "stationIds": [
+      "station-r7685425"
+    ]
+  },
+  {
+    "id": "historical-mymaps",
+    "title": "نقشه مترو تهران در گوگل مپ",
+    "name": {
+      "fa": "نقشه مترو تهران در گوگل مپ",
+      "en": "Historical user-created Tehran Metro map in Google My Maps"
+    },
+    "publisher": "Google My Maps user; personal author unverified",
+    "url": "https://www.google.com/maps/d/u/0/viewer?mid=1Mzl8gQSK6Nz0G9IKwouXwF_u5Y26WMwj",
+    "published": null,
+    "retrieved": "2026-11-24",
+    "type": "historical_reference",
+    "reliability": "unverified_reference",
+    "license": "No redistribution grant located; historical reference only",
+    "lineIds": [],
+    "stationIds": [],
+    "locator": "Public viewer. A KML export endpoint returned HTTP 200 and attachment headers on the retrieval date. No geometry, station roster, status or dates were imported."
+  }
+]

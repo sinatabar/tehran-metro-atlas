@@ -61,7 +61,7 @@ cmp data/processed/osm/reproduction/context.geojson data/reviewed/osm/context.ge
 cmp data/processed/osm/reproduction/context-provenance.json.gz data/reviewed/osm/context-provenance.json.gz
 ```
 
-`data/raw/osm/2026-11-23/manifest.json` records the URL, timestamp, hash, bounding box and object counts. If the provider's dated extract is available, it also permits regeneration of the compact raw inputs. Geofabrik rotates older daily files. The checked-in compact raw snapshot remains usable offline after rotation.
+The [raw source notice](../data/raw/osm/README.md) accompanies the ODbL data. `data/raw/osm/2026-11-23/manifest.json` records the URL, timestamp, PBF hash, hashes of both compact inputs, bounding box and object counts. `osm_normalize.py` checks those input hashes before processing. Published derivatives and exports have SHA-256 entries in `data/published/checksums.json`. If the provider's dated extract is available, it also permits regeneration of the compact raw inputs. Geofabrik rotates older daily files. The checked-in compact raw snapshot remains usable offline after rotation.
 
 ```sh
 curl --fail --location --output /tmp/iran-261123.osm.pbf https://download.geofabrik.de/asia/iran/iran-261123.osm.pbf

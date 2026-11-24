@@ -1,0 +1,8 @@
+[
+  {
+    "id": "geofabrik-iran-replication",
+    "url": "https://download.geofabrik.de/asia/iran/updates/state.txt",
+    "scope": "Iran OSM extract replication state",
+    "policy": "https://download.geofabrik.de/technical.html"
+  }
+]

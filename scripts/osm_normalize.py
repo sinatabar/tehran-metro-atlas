@@ -7,6 +7,7 @@ reviewed inputs. No geometric inference is made across missing track nodes.
 
 import argparse
 import gzip
+import hashlib
 import heapq
 import json
 import math
@@ -629,6 +630,7 @@ def make_context(raw, manifest):
         "type": "FeatureCollection",
         "attribution": "© OpenStreetMap contributors",
         "license": "ODbL-1.0",
+        "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
         "snapshotTime": manifest["snapshotTime"],
         "sourceIds": [source],
         "features": features,
@@ -642,9 +644,15 @@ def normalize(raw_dir, dest):
         for x in ("network.json", "context.geojson", "context-provenance.json.gz")
     ):
         raise ValueError("Choose an empty candidate directory.")
+    manifest = json.loads((raw_dir / "manifest.json").read_text())
+    for name in ("network.json.gz", "context.json.gz"):
+        if (
+            hashlib.sha256((raw_dir / name).read_bytes()).hexdigest()
+            != manifest["sha256"][name]
+        ):
+            raise ValueError(f"Snapshot checksum mismatch for {name}")
     raw = load(raw_dir / "network.json.gz")
     context = load(raw_dir / "context.json.gz")
-    manifest = json.loads((raw_dir / "manifest.json").read_text())
     source = source_id(manifest)
     data, gaps = build_network(raw, manifest)
     for s in data["stations"]:
