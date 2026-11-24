@@ -1,0 +1,13 @@
+# Verification and counting
+
+The atlas describes passenger services and the development of their network as of the release date. A place in a project interview can identify an intended service area. Adding a station marker requires separate geographic evidence.
+
+1. Record the publisher, original title, date, language, stable URL, retrieval date, evidence type, scope and rights. Prefer the operator, council decision or directly attributable project report. Record how a mirrored document was identified. Preserve a document only when its rights permit.
+2. Establish what the source actually confirms, including the component, effective date, planned action and milestone. Use the narrower, more recent attributable claim in a conflict and retain the contrary claim in review notes. An interchange label on an earlier diagram can predate a platform entering service.
+3. Reconcile the diagram's ordered passenger stops against OSM route members and known openings, including suburban and airport branches. Match two lines at the same passenger facility before counting it. Distinct platform coordinates can belong to the same transfer complex. Compare complete sequences and inspect individual differences.
+4. Record spatial confidence independently. Verified requires exact geographic evidence, high indicates strong evidence with minor uncertainty, approximate a general position, and indicative a position interpreted from a planning document. Unknown locations remain null in JSON and in tabular exports. An uncertainty radius requires its own evidence. An actual alignment can be approximate underground.
+5. Derive lengths from known, reviewed geometry under an explicit convention. The mapped length covers unique passenger-path edges between stops. Full operational and planned totals require an audited accounting of overlap, endpoints, parallel rails and alternatives. Growth by opening day includes only stations with dates that can be attributed to evidence.
+6. Date forecasts separately from events. Store ISO days or bounded ranges. UI calendars present the same civil date in Persian or Gregorian form. A published plan target alone cannot establish passenger service.
+7. A reviewer checks normalized inputs and the change report before a new release. Review generated quality and checksum manifests, GIS round trips, station-click behavior and same-origin offline operation. Record remaining differences and maintain release history in Git.
+
+[Research inventory](docs/RESEARCH.md) · [Data model and exact counting rules](docs/DATA_DICTIONARY.md) · [OSM evidence and topology](docs/OSM.md) · [Reproduction instructions](docs/PIPELINE.md)

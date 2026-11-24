@@ -1,0 +1,42 @@
+{
+  "name": "tehran-metro-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "data": "python3 scripts/build.py",
+    "assets": "node scripts/web-assets.mjs",
+    "predev": "npm run assets",
+    "dev": "vite --config apps/web/vite.config.ts",
+    "prebuild": "npm run assets",
+    "build": "tsc --noEmit && vite build --config apps/web/vite.config.ts && node scripts/web-pages.mjs",
+    "preview": "vite preview --config apps/web/vite.config.ts",
+    "test": "vitest run tests/web/model.test.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "5.3.0",
+    "@fontsource-variable/vazirmatn": "5.3.0",
+    "lucide-react": "1.79.0",
+    "maplibre-gl": "6.19.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.65.1",
+    "@types/geojson": "7946.0.16",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.3.0",
+    "prettier": "3.10.1",
+    "sharp": "0.35.5",
+    "typescript": "7.0.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.1"
+  }
+}
