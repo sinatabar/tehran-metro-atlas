@@ -429,6 +429,11 @@ export function Detail(
   const nearby = choice.kind === "places" ? closest(atlas, r) : [];
   const val = (v: string | null | undefined) =>
     v || T("ثبت نشده", "Unrecorded");
+  const wheelchairLabels: Record<string, string> = {
+    yes: T("بله، طبق OSM", "Yes, per OSM"),
+    no: T("خیر، طبق OSM", "No, per OSM"),
+    limited: T("محدود، طبق OSM", "Limited, per OSM"),
+  };
   const expected =
     typeof r.expected === "string"
       ? date(r.expected, lang)
@@ -503,6 +508,15 @@ export function Detail(
           <>
             <dt>{T("افتتاح پیش‌بینی‌شده", "Expected opening")}</dt>
             <dd>{val(expected)}</dd>
+          </>
+        )}
+        {choice.kind === "stations" && (
+          <>
+            <dt>{T("دسترسی با ویلچر", "Wheelchair access")}</dt>
+            <dd>
+              {wheelchairLabels[r.accessibility?.wheelchair || ""] ||
+                T("بررسی نشده", "Unverified")}
+            </dd>
           </>
         )}
         {p && (

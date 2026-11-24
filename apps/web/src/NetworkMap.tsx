@@ -860,6 +860,23 @@ export default function NetworkMap(props: MapProps) {
           )}
         </div>
       )}
+      {loaded > 0 &&
+        !unavailable &&
+        !layers.rail.features.length &&
+        !layers.stop.features.length &&
+        !layers.site.features.length && (
+          <div className="map-empty floating" role="status">
+            <p>
+              {T(
+                "در لایه‌های انتخاب‌شده عارضه‌ای با موقعیت معلوم وجود ندارد.",
+                "No located features match these layers.",
+              )}
+            </p>
+            <button onClick={props.openDirectory}>
+              {T("مشاهدهٔ فهرست", "Browse the directory")}
+            </button>
+          </div>
+        )}
       <div className="map-bottom">
         <div className="overlay-actions">
           <button
@@ -955,8 +972,16 @@ export default function NetworkMap(props: MapProps) {
         </div>
       )}
       <footer className="map-foot">
-        <span dir="ltr">
+        <span className="view-coordinates" dir="ltr">
           {extent.lat.toFixed(3)}° N &nbsp; {extent.lng.toFixed(3)}° E
+        </span>
+        <span className="alignment-note">
+          {layers.rail.features.some((f) => f.properties?.uncertain)
+            ? T(
+                "موقعیت مسیرهای ریلی تقریبی است",
+                "Mapped track positions are approximate",
+              )
+            : null}
         </span>
         <a
           href="https://www.openstreetmap.org/copyright"

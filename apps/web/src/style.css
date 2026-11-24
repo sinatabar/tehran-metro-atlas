@@ -1402,3 +1402,32 @@ dialog > p,
   text-decoration: underline;
   font-size: 14px;
 }
+.map-empty {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  width: min(330px, 80%);
+  padding: 14px;
+  text-align: center;
+  font-size: 14px;
+}
+.map-empty button {
+  color: var(--accent);
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.alignment-note {
+  font:
+    500 12px/1.4 "DM Sans Variable",
+    "Vazirmatn Variable",
+    sans-serif;
+}
+@media (max-width: 760px) {
+  .map-foot .view-coordinates {
+    display: none;
+  }
+  .alignment-note {
+    font-size: 11px;
+  }
+}

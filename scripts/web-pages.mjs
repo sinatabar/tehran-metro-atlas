@@ -320,7 +320,10 @@ const releaseHash = createHash("sha256")
 const sw = await readFile("apps/web/offline-worker.js", "utf8");
 await writeFile(
   out + "/offline-worker.js",
-  "const assets = "+JSON.stringify(precache)+";\n"+sw.replace("__CACHE_KEY__", "atlas-" + releaseHash),
+  "const assets = " +
+    JSON.stringify(precache) +
+    ";\n" +
+    sw.replace("__CACHE_KEY__", "atlas-" + releaseHash),
 );
 console.log(
   "Generated " +

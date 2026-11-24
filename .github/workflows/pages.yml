@@ -52,8 +52,14 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     permissions:
+      contents: read
       pages: write
       id-token: write
     steps:
+      - uses: actions/checkout@v7.0.1
       - id: deployment
         uses: actions/deploy-pages@v5.0.1
+      - name: Verify live public routes and dataset checksums
+        env:
+          PUBLIC_URL: ${{ steps.deployment.outputs.page_url }}
+        run: node scripts/web-verify-deployment.mjs "$PUBLIC_URL"

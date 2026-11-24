@@ -1,5 +1,6 @@
 // Registered only after a reader explicitly asks to save the atlas offline.
-const key = "__CACHE_KEY__";
+const prefix = "tehran-metro-atlas/" + self.registration.scope + "/";
+const key = prefix + "__CACHE_KEY__";
 // The build prepends the asset manifest for this release.
 self.addEventListener("install", (event) =>
   event.waitUntil(
@@ -14,7 +15,7 @@ self.addEventListener("activate", (event) =>
     (async () => {
       await self.clients.claim();
       for (const old of await caches.keys())
-        if (old.startsWith("atlas-") && old !== key) await caches.delete(old);
+        if (old.startsWith(prefix) && old !== key) await caches.delete(old);
     })(),
   ),
 );

@@ -24,7 +24,7 @@ export interface RecordItem {
   alignmentType?: string | null;
   projectId?: string;
   osmRefs?: string[];
-  accessibility?: string | LocalName | null;
+  accessibility?: { wheelchair?: string; sourceIds?: string[] } | null;
   uncertaintyGeometry?: Geometry | null;
   uncertaintyM?: number | null;
   lastVerified?: string | null;
